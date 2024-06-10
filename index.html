@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#home">Home</a>
+            </li>
+            <!-- /.list__item -->
+            <li class="list__item">
+              <a href="#about">About me</a>
+            </li>
+            <!-- /.list__item -->
+            <li class="list__item">
+              <a href="#skills">Skills</a>
+            </li>
+            <!-- /.list__item -->
+            <li class="list__item">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <!-- /.list__item -->
+            <li class="list__item">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <!-- /.list__item -->
+          </ul>
+          <!-- /.list -->
+        </nav>
+        <!-- /.nav -->
+      </div>
+      <!-- /.container -->
+
+      <div class="burger">
+        <input type="checkbox" id="burger-toggle" />
+        <label for="burger-toggle" class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="burger-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.burger -->
+    </header>
+
+    <main class="main">
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Denis Novik</h1>
+
+          <div class="wraper-image">
+            <div class="image"></div>
+            <!-- /.image -->
+          </div>
+          <!-- /.wraper-image -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.section -->
+      <div id="about" class="section about">
+        <div class="container">
+          <h2>About me</h2>
+          <div class="text-content">
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk.<br />
+              I'm interested in design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design<br />
+              interfaces" in IT-Academy.
+            </p>
+            <p>
+              Ready to implement excellent projects<br />
+              with wonderful people.
+            </p>
+          </div>
+          <!-- /.text-content -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.section -->
+      <div id="skills" class="section skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <p>I work in such programs as</p>
+          <div class="list">
+            <div class="list__item">
+              <div class="item__icon"></div>
+              <!-- /.item__icon -->
+              <p class="item__text">Adobe Photoshop</p>
+              <!-- /.item__text -->
+              <div class="star__row">
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+              </div>
+              <!-- /.star__row -->
+            </div>
+            <!-- /.list__item -->
+            <div class="list__item">
+              <div class="item__icon"></div>
+              <!-- /.item__icon -->
+              <p class="item__text">Adobe Illustrator</p>
+              <!-- /.item__text -->
+              <div class="star__row">
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+              </div>
+              <!-- /.star__row -->
+            </div>
+            <!-- /.list__item -->
+            <div class="list__item">
+              <div class="item__icon"></div>
+              <!-- /.item__icon -->
+              <p class="item__text">Adobe After Effects</p>
+              <!-- /.item__text -->
+              <div class="star__row">
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-gray.png" alt="star" />
+              </div>
+              <!-- /.star__row -->
+            </div>
+            <!-- /.list__item -->
+            <div class="list__item">
+              <div class="item__icon"></div>
+              <!-- /.item__icon -->
+              <p class="item__text">Figma</p>
+              <!-- /.item__text -->
+              <div class="star__row">
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+                <img src="./img/skills/star-black.png" alt="star" />
+              </div>
+              <!-- /.star__row -->
+            </div>
+            <!-- /.list__item -->
+          </div>
+          <!-- /.list -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.section -->
+      <div id="portfolio" class="section portfolio">
+        <div class="container">
+          <h2>Portfolio</h2>
+          <div class="img-wraper">
+            <img src="./img/portfolio/Fashion-Store.png" alt="store-image" />
+          </div>
+          <!-- /.img-wraper -->
+          <p>Online fashion store - Homepage</p>
+          <div class="img-wraper">
+            <img src="./img/portfolio/reebok_web.png" alt="store-image" />
+          </div>
+          <!-- /.img-wraper -->
+          <p>Reebok Store - Concept</p>
+          <div class="img-wraper">
+            <img src="./img/portfolio/braun-landing.png" alt="store-image" />
+          </div>
+          <!-- /.img-wraper -->
+          <p>Braun Landing Page - Concept</p>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.section -->
+    </main>
+    <footer id="contacts" class="footer section">
+      <div class="container">
+        <h2>Contacts</h2>
+        <p>
+          Want to know more or just chat?<br />
+          You are welcome!
+        </p>
+        <button class="button">Send message</button>
+        <!-- /.button -->
+        <div class="social-list">
+          <div class="social-list__item">
+            <div class="social-list__icon">
+              <a href="#">
+                <svg>
+                  <use xlink:href="./img/footer/linkedin.svg#linkedin"></use>
+                </svg>
+              </a>
+            </div>
+            <!-- /.social-list__icon -->
+           
+          </div>
+          <!-- /.social-list__item -->
+          <div class="social-list__item">
+            <div class="social-list__icon">
+                <a href="#">
+                  <svg>
+                    <use xlink:href="./img/footer/instagram.svg#inst"></use>
+                  </svg>
+                </a>
+              </div>
+              <!-- /.social-list__icon -->
+              
+          </div>
+          <!-- /.social-list__item -->
+          <div class="social-list__item">
+            <div class="social-list__icon">
+                <a href="#">
+                  <svg>
+                    <use xlink:href="./img/footer/behance.svg#beha"></use>
+                  </svg>
+                </a>
+              </div>
+              <!-- /.social-list__icon -->
+              
+          </div>
+          <!-- /.social-list__item -->
+          <div class="social-list__item">
+            <div class="social-list__icon">
+                <a href="#">
+                  <svg>
+                    <use xlink:href="./img/footer/dribbble.svg#drib"></use>
+                  </svg>
+                </a>
+              </div>
+              <!-- /.social-list__icon -->
+          </div>
+          <!-- /.social-list__item -->
+        </div>
+        <!-- /.social-list -->
+        <p>
+          Like me on<br />
+          LinkedIn, Instagram, Behance,<br />
+          Dribble
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </body>
+</html>
